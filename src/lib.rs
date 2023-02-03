@@ -160,6 +160,9 @@ pub use self::import::import;
 #[cfg(feature = "import")]
 #[doc(inline)]
 pub use self::import::import_slice;
+#[cfg(feature = "import")]
+#[doc(inline)]
+pub use self::import::import_buffer_data;
 #[doc(inline)]
 pub use self::material::Material;
 #[doc(inline)]
